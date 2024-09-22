@@ -54,9 +54,9 @@ export const Header = () => {
   }
 
   return (
-    <div className='p-3 shadow-sm flex justify-between items-center px-5 h-16'>
+    <div className='p-3 shadow-sm flex justify-between items-center md:px-5 px-2 lg:px-8 h-16'>
        <a href="/">
-        <img src="./logo.svg" alt="" className='w-full h-28'/>
+        <img src="./logo.svg" alt="" className='w-full sm:h-24 h-28'/>
         </a>
         <div>
           {isSigned?
